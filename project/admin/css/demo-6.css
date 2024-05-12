@@ -1,0 +1,112 @@
+.bg-hover-primary:hover{
+	background-color: #3464FE;
+	color: #ffffff;
+}
+.bg-blue{
+	background-color: #3464FE;
+	color: #ffffff;
+}
+.text-blue{
+	color: #3464FE;
+}
+.bg-blue:hover{
+	color: #ffffff;
+}
+.text-lightgreen{
+	color: #65bf93;
+}
+.bg-lightgreen{
+	background-color: #65bf93;
+	color: #ffffff;
+}
+.bb-gray-1{
+	border-bottom: 1px solid #d3d3d3;
+}
+.bg-lightgray{
+	background-color: #FAFAFC;
+}
+
+.appointment{
+	padding: 30px 0px;
+}
+.duty-hour{
+	overflow: auto;
+	position: relative;
+	left: -14px;
+}
+.table-scroll-contant{
+	display: none;
+}
+.patient-graph{
+	height: 18.2rem;
+}
+.mb-13{
+	margin-bottom: 13px;
+}
+.dr-profile{
+	height:  45.5rem;
+}
+
+.duty-hour ul li{
+  display:inline-block; 
+  text-align:center;
+  border-radius:15px;
+  
+}
+.duty-hour ul li a{
+  display:block;
+  background-color: transparent;
+  border-radius:15px;
+  padding: 15px;
+}
+.duty-hour ul li a.active{
+  background:#3464FE;
+  color: #ffffff;
+}
+.duty-hour ul li a:hover{
+  background:#3464FE;
+  color: #ffffff;
+}
+
+
+
+/*=========================================================*/
+
+@media only screen and (max-width: 1440px) {
+	.table-scroll-contant{
+		display: block;
+		position: absolute;
+    top: 9.5rem;
+    color: #989898;
+	}
+}
+
+@media only screen and (max-width: 1194px) {
+	.table-scroll-contant{
+		display: none;
+	}
+}
+@media only screen and (max-width: 835px) {
+	.patient-graph{
+		height: auto;
+	}
+}
+@media only screen and (max-width: 768px) {
+	.table-scroll-contant{
+		display: none;
+	}
+	.duty-hour{
+		overflow: visible;
+	}
+}
+@media only screen and (max-width: 500px) {
+	.table-scroll-contant{
+		display: block;
+		position: absolute;
+    top: 9.5rem;
+    color: #989898;
+	}
+	.duty-hour{
+		overflow: auto;
+	}
+}	

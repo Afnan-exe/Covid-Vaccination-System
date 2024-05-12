@@ -1,0 +1,257 @@
+.bg-lightgreen{
+	background-color: #A3B385;
+}
+.text-lightgreen{
+	color: #A3B385;
+}
+.bg-lightorange{
+	background-color: #FFBD8F;
+}
+.bg-lilac{
+	background-color: #B385A6;
+}
+.bg-purple{
+	background-color: #D48FFF;
+}
+.bg-Tacha{
+	background-color: #DBC761;
+}
+.bg-shadow-green{
+	background-color: #8ABBB2;
+}
+.content-wrapper{
+	background-color: #F6F8FD;
+}
+
+.back-body{
+	background-image: url(../../images/svg-icon/medical/body.png);
+	background-position: center right;
+	background-size: 90% auto; 
+}
+.progress-box {
+    min-height: 408px;
+}
+#calendar{
+	height: 348px;
+}
+#donut-chart tspan {
+  font-weight: 300;
+  font-size: 14px;
+}
+
+.fc-day-number{
+	font-size: 1rem;
+}
+.fc-event {
+    border-radius: 0;
+    border: none;
+    color: #ffffff !important;
+    font-size: 0.7rem;
+    margin: 1px -1px 0;
+    padding: 2px;
+    cursor: move;
+    text-align: center;
+}
+tr:first-child>td>.fc-day-grid-event {
+    margin-top: -2px;
+}
+.fc th.fc-widget-header {
+    color: #777777;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 20px;
+    padding: 0px 0;
+}
+
+@media only screen and (max-width: 3500px) {
+  	#calendar {
+    	overflow: auto;
+  	}
+}
+@media only screen and (max-width: 1920px) {
+	.back-body{
+		background-size: 90% auto; 
+	}
+	#calendar {
+    	overflow: hidden;
+  	}
+}
+@media only screen and (max-width: 1600px) {
+  .progress-box {
+    min-height: 408px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
+  	#calendar {
+    	height: 485px;
+    	overflow: auto;
+	}
+	.back-body{
+		background-image: url(../../images/svg-icon/medical/body.png);
+		background-position: top right;
+		background-size: 90% auto; 
+		background-position-y: 8%;
+	}
+}
+
+@media only screen and (max-width: 1194px) {
+  #calendar {
+    height: 462px;
+    overflow: visible;
+  }
+}
+@media only screen and (max-width: 1112px) {
+  #calendar {
+    height: 484px;
+    overflow: visible;
+  }
+}
+@media only screen and (max-width:835px) {
+  #calendar {
+    height: auto;
+    overflow: visible;
+  }
+  .progress-box {
+    min-height: auto;
+  }	
+}
+
+@media only screen and (max-width: 428px) {
+	.back-body{
+		background-position: center right;
+		background-size: 90% auto; 
+		background-position-y: center;
+	}
+	.back-body h1{
+		font-size: 30px;
+	}
+}
+
+/*=========================index-5-Css=======================*/
+a {
+    color: #172b4c;
+}
+.text-purple{
+	color: #8A61FD;
+}
+.text-blue{
+	color: #02A9D6;
+}
+.theme-primary .border-blue{
+	border-color: #02A9D6 !important;
+}
+.bg-blue{
+	background-color: #02A9D6;
+	color: #ffffff;
+}
+.theme-primary .hover-blue:hover, .theme-primary .hover-blue:focus{
+	color: #02A9D6;
+}
+.position-revenue{
+	position: absolute;
+	z-index: 9;
+}
+.position-year{
+	position: absolute;
+	right: 30px;
+	margin-top: 10px;
+	z-index: 9;
+}
+
+
+.pdf-file{
+	display: none;
+}
+.dr-image-box{
+	background-image: url(../../images/front-end-img/courses/13.jpg);
+	width: 100%;
+	height: 290px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding: 5px;
+	background-position: center top;
+}
+.share-img-1{
+	background-image: url(../../images/front-end-img/courses/1.jpg);
+	height: 12rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.share-img-2{
+	background-image: url(../../images/front-end-img/courses/9f.jpg);
+	height: 5.8rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.share-img-3{
+	background-image: url(../../images/front-end-img/courses/11f.jpg);
+	height: 5.5rem;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+@media only screen and (max-width: 1440px) {
+	.pdf-file{
+		display: block;
+	}
+	.patient-list{
+		height: 402px;
+		overflow: auto;
+	}
+}
+@media only screen and (max-width: 1024px) {
+	.dr-image-box{
+		height: 270px;
+	}
+	.share-img-1{
+		height: 9.6rem;
+	}
+	.share-img-2{
+		height: 4.5rem;
+	}
+	.share-img-3{
+		height: 4.5rem;
+	}
+}
+
+@media only screen and (max-width: 835) {
+	.dr-image-box{
+		height: 300px;
+	}
+	.patient-list{
+		height: auto;
+		overflow: visible;
+	}
+	.share-img-1{
+		height: 14rem;
+	}
+	.share-img-2{
+		height: 6.5rem;
+	}
+	.share-img-3{
+		height: 6.5rem;
+	}
+}
+
+@media only screen and (max-width: 428px) {
+	.position-revenue{
+		position: relative;
+	}
+	.position-year{
+		position: relative;
+	}
+	.share-img-1{
+		height: 14rem;
+	}
+	.share-img-2{
+		height: 6.5rem;
+	}
+	.share-img-3{
+		height: 6.5rem;
+	}
+}
